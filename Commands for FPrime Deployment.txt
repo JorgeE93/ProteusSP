@@ -1,0 +1,8 @@
+Commands
+to activate fprime-venv
+in GitHub/ProteusSP/FPrime
+source fprime-venv/bin/activate
+
+in GitHub/ProteusSP/FPrime/MyProject/HelloWorldDeployment
+
+fprime-util build -j4
