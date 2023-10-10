@@ -1,0 +1,3 @@
+#!/Users/frosty/GitHub/ProteusSP/FPrime/fprime-venv/bin/python3
+from Cheetah.CheetahWrapper import _cheetah
+_cheetah()
