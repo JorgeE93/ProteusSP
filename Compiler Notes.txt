@@ -1,0 +1,52 @@
+Compiler stuff
+
+Parsing is understanding the structure of the string given a set of rules (context-free grammars) describing how a syntactically valid string looks. The parser's job is to determine whether the string adheres to those structural rules. If it does, a second job is queued: to create an internal representation 
+
+----------------------------------------
+Example of something
+
+int main() {
+    int a = 5;
+    a = a * 5;
+    return 0;
+}
+
+=>
+
+program 'main' returns an integer
+begin
+  store the number '5' in the variable 'a'
+  'a' equals 'a' times '5'
+  return '0'
+end
+
+The first step of deciphering a program is to split every symbol up into its own token. This process is called tokenization
+
+int main() {
+    int a = 5;
+    a = a * 5;
+    return 0;
+}
+
+=>
+
+[KEYWORD,"int"] [ID,"main"] [LPAREN] [RPAREN] [LBRACE]
+    [KEYWORD,"int"] [ID,"a"] [EQUALS] [INT,"5"] [SEMICOLON]
+    [ID,"a"] [EQUALS] [ID,"a"] [MULTIPLY] [INT,"5"] [SEMICOLON]
+    [KEYWORD,"return"] [INT,"0"] [SEMICOLON]
+[RBRACE]
+
+Tokens should retain a type, and if the type can be of more than one value, the token should also contain the corresponding value. 
+
+The second step is called Parsing. The parsing phase takes tokens and produces an abstract syntax tree. Parsers are complex but generally follow a set of rules called context-free grammars. An abstract syntax tree is created and lays out the level of execution. 
+
+During the Code generation phase, we "walk the tree" and generate code. 
+
+----------------------------------------
+
+Typechecking
+
+Types: used to describe data and the operations applicable to that data Type error.
+Program with type errors: ill-typed
+Program without type errors: well-typed
+
