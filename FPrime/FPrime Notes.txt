@@ -1,0 +1,11 @@
+FPrime is an embedded systems framework. The framework has been a reliable way to minimize development costs, schedule, and effort in small embedded missions. These missions include CubeSats, small-sats, and deployables. F' can be used for any embedded system regardless of the project size or field. 
+
+F' was built to meet the following goals:
+- Capture the reusability of embedded projects into a Framework
+- Ease the separating and reassembling of shareable system components ???
+- Isolate components for ease of testing
+- Adapt easily to new contexts
+- Port to new architectures and platforms
+- Be easy to use
+- Scale and configure to meet new use cases
+- Preform well in resource-constrained context
