@@ -1,7 +1,7 @@
-Compiler Design - Jorge
-FPrime - Dalton
-FPP - Jonny
-Scala - Chance
-HSM - David
-Proteus - Alberto
-Recess - Daniel
+Compiler Design -Alberto
+FPrime - Daniel
+FPP - Jorge
+Scala - Dalton
+HSM - Johnny
+Proteus - Chance
+Recess - David
