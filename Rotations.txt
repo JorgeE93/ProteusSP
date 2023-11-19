@@ -1,8 +1,8 @@
-Compiler Design - Chance
-FPrime - David
-FPP - Alberto
-Recess - Daniel
-Scala - Brian
-HSM - Jorge
-Proteus - Dalton
-Recess/Meeting Lead - Johnny
+Compiler Design - Johnny
+FPrime - hance
+FPP - David
+Recess - Alberto
+Scala - Daniel
+HSM - Brian
+Proteus - Jorge
+Recess/Meeting Lead - Dalton
